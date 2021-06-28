@@ -1,0 +1,45 @@
+.bg {
+    background: rgb(10,130,62);
+    background: linear-gradient(135deg, rgba(10,130,62,1) 0%, rgba(124,255,107,1) 100%);
+}
+
+.productos__item {
+    display:flex;
+    flex-direction: column-reverse;
+    
+    @include tablet {
+        @include grid (2,1rem){
+            justify-items: center;
+            align-items: center;
+        };
+    }
+   .item-texto {
+       display: flex;
+       flex-direction: column;
+       place-items: center;
+   }
+
+}
+/* ------------------------- */
+/* Clases de fullpage.js - Flechas de Slide */
+/* ------------------------- */
+.fp-controlArrow.fp-next,
+.fp-controlArrow.fp-prev {
+    top: 95%;
+}
+
+.fp-controlArrow.fp-prev {
+    @include tablet {
+        left: 80%;
+    }
+    border-width: 20px 20px 20px 0;
+    border-color: transparent #000 transparent transparent;
+}
+
+.fp-controlArrow.fp-next {
+    @include tablet {
+        right: 50px;
+    }
+    border-width: 20px 0 20px 20px;
+    border-color: transparent transparent transparent #000;
+}

@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap');
+// Fuentes
+$fuente_principal:   'Archivo', sans-serif;
+
+// Tamaño de Media Queries
+$telefono: 480px;
+$tablet: 768px;
+$desktop: 1024px;
+//headerheigth
+$headerHeight:3rem;
+// Colores
+
+//Page Color
+$Azul: #36688D;
+$Amarillo: #F3CD05;
+$AmarilloDark: #F49F05;
+$Naranja: #F18904;
+$NaranjaDark:#fc8c0d;
+
+//Contenido color 
+$title: #161212;
+$text-color:#5B5757;
+$tex-color-light: #8F8A8A;
+$body-color: #FEFBFB;
+$container-color:  #FFF;
+
+// Fuentes
+
+//font-weight
+$delgada: 300;
+$regular : 500;
+$bold: 700;
+
+//Tipografia
+$Big-font-size: 3rem;
+$h2-font-size:  2rem;
+$h3-font-size: 1.5rem;
+$normal-font-size : 1.8rem;
+$small-font-size :  1rem;
+
+// margenes 
+
+$mb-1: .5rem;
+$mb-2: 1rem;
+$mb-3: 1.5rem;
+$mb-4: 2rem;
+$mb-5: 2.5rem;
+$mb-6: 3rem;
+
+//z-index
+
+$z-tooltip:10;
+$z-fixed: 100;
+
+
+
+
+
+//Separacion
+$separacion: 5rem;

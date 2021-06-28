@@ -1,0 +1,55 @@
+.nav {
+    position: fixed;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    z-index: 100;
+    width: 100%;
+    padding: 2rem 5rem;
+}
+
+.nav__logo {
+    img {
+        width: 6.5rem;
+        height: 6.5rem;
+    }
+}
+
+.menu-mobile {
+    display: block;
+    cursor: pointer;
+
+    i {
+        color: #fff;
+        font-size: 3rem;
+    }
+    @include tablet  {
+        display: none;
+    }
+}
+
+.menu {
+    list-style: none;
+    display: none;
+    place-items: center;
+    column-gap: 1.2rem;
+    @include tablet {
+        display: flex;
+    }
+    a {
+        color: #FFFAFA;
+        font-size: 2rem;
+        transition: .5s ease;
+        &:hover {
+            color: #0a0a0a;
+        }
+    }
+
+    .active {
+        border-bottom: 2px solid #FFFAFA;
+        a {
+            color: #FFFAFA;
+        }
+    }
+}
+

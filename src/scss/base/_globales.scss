@@ -1,0 +1,43 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: $fuente_principal;
+    font-size: $normal-font-size;
+    line-height: 1.6;
+    background-color: $body-color;
+    color: $text-color;
+}
+p {
+    font-size: 2rem;
+    margin: 0;
+}
+.contenedor {
+    width: 80%;
+    max-width: 360rem;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+img,
+picture {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1, h2, h3{
+    margin: 0;
+    font-weight: $regular;
+    color: $title; 
+}
+
+
+
+

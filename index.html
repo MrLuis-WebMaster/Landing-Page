@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Libreria full page CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.1/fullpage.css" integrity="sha512-YNAoslhy+76TbvBHwJYSkhl4G5g+CCHFYB447I7A73Mg4cPDUwoTdBqsX7arCKW9JTwvSPKDmLZiBdPVSkAyEQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Files BoxIcons -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Files CSS-->
+    <link rel="stylesheet" href="build/css/app.css">
+    <title>Selvarte Café</title>
+</head>
+<body>
+    <nav class="nav contenedor">
+        <a href="#inicio" class="nav__logo">
+            <img src="build/img/logo.webp" alt="Logo de selvarte cafe">
+        </a>
+        <ul id="menu" class="menu">
+            <li data-menuanchor="inicio" class="active"><a href="#inicio">Inicio</a></li>
+            <li data-menuanchor="nosotros" class="active"><a href="#nosotros">Nosotros</a></li>
+            <li data-menuanchor="productos" class="active"><a href="#productos">Productos</a></li>
+            <li data-menuanchor="contacto" class="active"><a href="#contacto">Contacto</a></li>
+        </ul>
+        <div class="menu-mobile">
+            <i class='bx bx-grid-alt'></i>
+        </div>
+
+    </nav>
+    <main id="fullpage">
+        <header class="section contenedor header" >
+            <div class="grid">
+                <div class="contenedor__texto">
+                    <h1>Bienvenidos a <span>Selvarte Café</span></h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius aut, tempora animi cupiditate rem commodi?</p>
+                    <div> 
+                        <a href="#contacto" class="btn-contacto">Contactanos</a> 
+                    </div> 
+                </div>
+                <div class="contenedor__img">
+                    <img src="build/img/headerdecoration.webp" alt="">
+                </div>
+            </div>
+
+            <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#216b5e  " fill-opacity="1" d="M0,32L26.7,69.3C53.3,107,107,181,160,176C213.3,171,267,85,320,80C373.3,75,427,149,480,186.7C533.3,224,587,224,640,208C693.3,192,747,160,800,170.7C853.3,181,907,235,960,261.3C1013.3,288,1067,288,1120,272C1173.3,256,1227,224,1280,197.3C1333.3,171,1387,149,1413,138.7L1440,128L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>            <div class="contenedor__icono">
+            <div class="contenedor__icono">   
+                <a href="#nosotros">
+                    <i class='bx bxs-chevron-down'></i>
+                </a>
+            </div>
+        </header>
+        <section class="section">
+            <div class="nosotros">
+                <div class="nosotros__texto">
+                    <h1> Nuestra <br> <span>Historia</span></h1>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis reprehenderit doloremque id, quo tenetur animi placeat? Quam minus explicabo quaerat.
+                    </p>
+                </div>
+                <div class="nosotros__img">
+                    <img src="build/img/brothers.webp" alt="">
+    
+                </div>
+            </div>
+        </section>
+        <section class="section productos bg">
+            <div class="contenedor">
+                <div class="slide">
+                    <div class="productos__item">
+                        <div class="item-texto">
+                            <h1>Titulo Selvarte</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <a class="btn-contacto">Me interesa</a>
+                        </div>
+                        <div class="item-img">
+                            <img src="build/img/s1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="productos__item">
+                        <div class="item-texto">
+                            <h1>Titulo Selvarte</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <a class="btn-contacto">Me interesa</a>
+                        </div>
+                        <div class="item-img">
+                            <img src="build/img/s1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="productos__item">
+                        <div class="item-texto">
+                            <h1>Titulo Selvarte</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <a class="btn-contacto">Me interesa</a>
+                        </div>
+                        <div class="item-img">
+                            <img src="build/img/s1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="section bg_footer">
+            <div class="overlay">
+                <button id = "btn-close" class="btn-contacto" > X </button>
+            </div>
+            <div class="footer contenedor">
+
+                <div class="footer__social">
+                    <div class="social__texto">
+                        <h2>Suscribete para obtener promociones</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil assumenda eligendi, quod voluptate voluptas fugit. Itaque ducimus rem deserunt enim!</p>
+                    </div>
+                    <div class="social__enlaces">
+                        <p>Conectemonos:</p>
+                        <a href="#"><i class='bx bxl-instagram' ></i></a>
+                        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                        <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                    </div>
+                </div>
+                <a id="btn-suscribirme" class="btn-contacto btn-footer">Suscribirme</a>
+                <div class="form_wrap">
+                    <form action="" class="form_contact">
+                        <h2>Contactanos</h2>
+                        <div class="user_info">
+                            <div>
+                                <label for="names">Nombres *</label>
+                                <input type="text" id="names">
+                            </div>
+                            <div>
+                                <label for="phone">Telefono / Celular</label>
+                                <input type="text" id="phone">
+
+                            </div>
+                            <div>
+                                <label for="email">Correo electronico *</label>
+                                <input type="text" id="email">
+                            </div>
+                            <div>
+                                <label for="mensaje">Mensaje *</label>
+                                <textarea id="mensaje"></textarea>
+                            </div>
+                            <input type="button" value="Enviar" id="btnSend">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <!-- Js FullPage -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.1/fullpage.js" integrity="sha512-ptNihUNJI06uiRWfD5k95LX0u1TRwY/22VXxttgTD19a3R8sWDOaRiR4qQH5RofuszYVJJSrsd8jKVyaQtTUww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- MyFilesJs -->
+    <script src="build/js/bundle.min.js"></script>
+</body>
+</html>
