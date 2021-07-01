@@ -62,14 +62,12 @@
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
     width: 90%;
-    height: 75%;
+    height: 70%;
     display: none;
-    margin-top: 8rem;
     @include tablet {
         display: block;
         height: auto;
         width: auto;
-        overflow: auto;
     }
 }
 
@@ -153,7 +151,7 @@
     top: 0;
     bottom: 0;
     display: none;
-    z-index: 30000;
+    z-index: 200;
 }
 
 .btn-footer {
@@ -165,7 +163,7 @@
 .overlay-active {
     display: flex;
     flex-direction: column-reverse;
-    row-gap: 2rem;
-    justify-content: center;
+    row-gap: 1rem;
     align-items: center;
+    justify-content: center;
 }
