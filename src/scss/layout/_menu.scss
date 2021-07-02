@@ -31,10 +31,24 @@
 .menu {
     list-style: none;
     display: none;
-    place-items: center;
-    column-gap: 1.2rem;
+    row-gap: 1.2rem;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 3rem;
+    left: 3rem;
+    top: 7rem;
+    padding: 3rem;
+    background-color: rgba(0,0, 0,.6);
+    border-radius: 1rem;
+    
     @include tablet {
         display: flex;
+        flex-direction: row;
+        background-color: transparent;
+        column-gap: 1.2rem;
+        position: static;
+        padding: 0;
     }
     a {
         color: #FFFAFA;
@@ -52,4 +66,9 @@
         }
     }
 }
+
+.menu-active {
+    display: flex;
+}
+
 

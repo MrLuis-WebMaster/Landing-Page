@@ -125,27 +125,27 @@
                 </div>
                 <a id="btn-suscribirme" class="btn-contacto btn-footer">Suscribirme</a>
                 <div class="form_wrap">
-                    <form action="" class="form_contact">
+                    <form id="my-form" action="https://formspree.io/f/xzbypbzp" method="POST" class="form_contact">
                         <h2>Contactanos</h2>
                         <div class="user_info">
                             <div>
                                 <label for="names">Nombres *</label>
-                                <input type="text" id="names">
+                                <input name="name" type="text" id="nombre">
                             </div>
                             <div>
-                                <label for="phone">Telefono / Celular</label>
-                                <input type="text" id="phone">
+                                <label for="phone">Telefono / Celular *</label>
+                                <input name="phone" type="tel" id="celular">
 
                             </div>
                             <div>
                                 <label for="email">Correo electronico *</label>
-                                <input type="text" id="email">
+                                <input name="email" type="email" id="email">
                             </div>
                             <div>
                                 <label for="mensaje">Mensaje *</label>
-                                <textarea id="mensaje"></textarea>
+                                <textarea name="message" id="mensaje"></textarea>
                             </div>
-                            <input type="button" value="Enviar" id="btnSend">
+                            <input type="submit" value="Enviar" class="btnSend">
                         </div>
                     </form>
                 </div>

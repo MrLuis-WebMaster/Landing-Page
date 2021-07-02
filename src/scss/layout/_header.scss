@@ -19,7 +19,7 @@
     justify-content: center;
     max-height: 25rem;
     height: 100%;
-    @include tablet {
+    @include desktop {
         @include grid (2, 1rem) {
             justify-content:center;
             align-content: center;
@@ -87,7 +87,7 @@
     @include tablet {
         height: auto;
         img {
-            height: auto
+            height: auto;
         };
     }
 

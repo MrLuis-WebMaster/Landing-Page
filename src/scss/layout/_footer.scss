@@ -18,6 +18,9 @@
     }
     .footer__social {
         margin-top: 10rem;
+        @include tablet {
+            margin-top: 0;
+        }
         div {
             h2 {
                 font-size: 3rem;
@@ -110,7 +113,7 @@
         max-height: 90px;
     }
 
-    input[type="button"] {
+    input[type="submit"] {
         width: 180px;
         border: none;
         align-self: flex-end;
@@ -166,4 +169,17 @@
     row-gap: 1rem;
     align-items: center;
     justify-content: center;
+}
+
+
+
+
+.alerta {
+    position: absolute;
+    top: 10rem;
+    right: 3rem;
+    background-color: #0a0a0a;
+    padding: 1rem 3rem;
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
 }
